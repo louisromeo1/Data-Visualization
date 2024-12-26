@@ -1,0 +1,60 @@
+/*
+Author: Louis Romeo
+
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+div {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;      /* Center content vertically */
+    flex-direction: column;   /* Stack content vertically */
+    min-height: 400px;        /* Minimum height to provide vertical space */
+}
+
+/* SVGs */
+svg {
+    background-color: hotpink;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 600px; /* ajdust frame width */
+    
+}
+
+/* Chart-specific Styling */
+rect {
+    stroke: #333;
+    stroke-width: 1px;
+    opacity: 0.8;
+    transition: fill 0.3s ease;
+}
+
+circle {
+    stroke: #555;
+    stroke-width: 1px;
+    opacity: 0.7;
+    transition: fill 0.3s ease;
+}
+
+/* Hover effects */
+rect:hover {
+    fill: #ff6600;
+}
+
+circle:hover {
+    fill: #ff6600;
+}

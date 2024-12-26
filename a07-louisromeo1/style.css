@@ -1,0 +1,33 @@
+/*
+Author: Louis Romeo
+CSC 444 Assignment 7
+Date: 11/6/2024
+style.css
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #pcplot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .datapath {
+    fill: none;
+    stroke-width: 1.5px;
+  }
+  
+  .axis path, .axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+  }
+  
+  .label {
+    font-size: 12px;
+    cursor: pointer;
+  }

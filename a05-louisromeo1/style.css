@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+div {
+    margin: 1em auto;
+}
+
+svg {
+    margin: 1em;
+}

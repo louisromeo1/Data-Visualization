@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Charts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Louis Romeo -->
+<!-- CSC 444 - Assignment 1 -->
+<!-- Date: 9/8/2024 -->
+<!-- index.html -->
+<body>
+
+    <h1>Assignment 1 - Louis Romeo</h1>
+    
+    <!-- Red Bar Chart -->
+    <svg id="red_bar_chart" width="400" height="400">
+        <g transform="translate(0,400) scale(1,-1)">
+            <rect width="50" height="200" x="0"></rect>
+            <rect width="50" height="150" x="50"></rect>
+            <rect width="50" height="250" x="100"></rect>
+            <rect width="50" height="225" x="150"></rect>
+            <rect width="50" height="100" x="200"></rect>
+            <rect width="50" height="175" x="250"></rect>
+            <rect width="50" height="175" x="300"></rect>
+            <rect width="50" height="300" x="350"></rect>
+        </g>
+    </svg>
+
+    <!-- Blue Bar Chart -->
+    <svg id="blue_bar_chart" width="400" height="400">
+        <g transform="translate(0,400) scale(1,-1)">
+            <rect width="50" height="200" x="0"></rect>
+            <rect width="50" height="150" x="50"></rect>
+            <rect width="50" height="250" x="100"></rect>
+            <rect width="50" height="225" x="150"></rect>
+            <rect width="50" height="100" x="200"></rect>
+            <rect width="50" height="175" x="250"></rect>
+            <rect width="50" height="175" x="300"></rect>
+            <rect width="50" height="300" x="350"></rect>
+        </g>
+    </svg>
+
+    <!-- Line Chart (line element) -->
+    <svg id="line_line_chart" width="400" height="400">
+        <g transform="translate(25,400) scale(1,-1)">
+            <line x1="0" y1="200" x2="50" y2="150" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+            <line x1="50" y1="150" x2="100" y2="250" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+            <line x1="100" y1="250" x2="150" y2="225" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+            <line x1="150" y1="225" x2="200" y2="100" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+            <line x1="200" y1="100" x2="250" y2="175" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+            <line x1="250" y1="175" x2="300" y2="175" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+            <line x1="300" y1="175" x2="350" y2="300" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+        </g>
+    </svg>
+
+    <!-- Line Chart (path element) -->
+    <svg id="path_line_chart" width="400" height="400">
+        <g transform="translate(25,400) scale(1,-1)">
+            <path d="M0,200 L50,150 L100,250 L150,225 L200,100 L250,175 L300,175 L350,300" stroke="black" stroke-width="2" fill="none"/>
+        </g>
+    </svg>
+
+     <!-- SVG Pie Chart -->
+    <svg id="pie_chart" width="400" height="400" viewBox="0 0 400 400">
+        <!-- Large Wedge (White, 270 degrees) -->
+        <path id="wedge_pink" d="
+            M 200,200
+            L 200,20
+            A 180,180 0 1,1 20,200
+            Z" />
+        <!-- Small Wedge (Pink, 90 degrees) -->
+        <path id="wedge_white" d="
+            M 200,200
+            L 20,200
+            A 180,180 0 0,1 200,20
+            Z" />
+    </svg>
+
+</body>
+</html>

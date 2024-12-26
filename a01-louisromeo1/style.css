@@ -1,0 +1,40 @@
+/* 
+Louis Romeo
+CSC 444 - Assignment 1
+Date: 9/8/2024 
+style.css
+*/
+
+
+#red_bar_chart rect {
+    fill: red;
+    stroke: black;
+    stroke-width: 1;
+}
+
+#blue_bar_chart rect {
+    fill: blue;
+    stroke: white;
+    stroke-width: 1;
+    gap: 0.5rem;
+}
+
+svg {
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+/* Style for Pie Chart */
+#pie_chart {
+    rotate: 90deg;
+    stroke: black;
+    stroke-width: 4px;
+}
+
+#wedge_pink {
+    fill: hotpink;
+}
+
+#wedge_white {
+    fill: white;
+}

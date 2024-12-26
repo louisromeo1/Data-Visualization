@@ -1,0 +1,35 @@
+/*
+Author: Louis Romeo
+CSC 444 Assignment 4
+Date: 10/1/2024
+style.css
+*/
+
+/* Style for the buttons */
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Ensure buttons are inline */
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer; 
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+/* Style when the button is hovered over */
+button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Style for button click */
+button:active {
+    background-color: #3e8e41; /* Darker green when clicked */
+    box-shadow: 0 5px #666; /* Shadow effect */
+    transform: translateY(4px); /* Button moves down slightly when clicked */
+}
+

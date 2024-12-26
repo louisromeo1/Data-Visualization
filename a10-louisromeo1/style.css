@@ -1,0 +1,89 @@
+/* 
+Louis Romeo
+CSC 444 Assignment 10
+Date: 12/8/2024
+style.css
+ */
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Volume renderer */
+  #volren {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #tfunc {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #003f7f;
+  }
+  
+  /* File */
+  input[type="file"] {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .axis line,
+  .axis path {
+    stroke: #999;
+    shape-rendering: crispEdges;
+  }
+  
+  .axis text {
+    font-size: 12px;
+    fill: #666;
+  }
+  
+  .opacity-curve {
+    stroke: #007bff;
+    stroke-width: 2px;
+    fill: none;
+  }
+  
+  circle {
+    fill: #007bff;
+    stroke: #fff;
+    stroke-width: 1.5px;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+  }
+  
+  circle:hover {
+    fill: #0056b3;
+  }
+  
+  .color-bar rect {
+    stroke: none;
+  }
+  

@@ -1,0 +1,33 @@
+/* 
+Author - Louis Romeo 
+CSC 444 - Assignemnt 2
+Date: 9/17/2024
+style.css
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.visualization-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+div {
+    text-align: center;
+    margin: 10px;
+}
+
+svg {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}

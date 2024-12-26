@@ -1,0 +1,70 @@
+/* 
+Author - Louis Romeo 
+CSC 444 - Assignemnt 6
+Date: 10/21/2024
+style.css
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #scatterplot_1, #scatterplot_2 {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  svg {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+  }
+  
+  circle {
+    fill-opacity: 0.7;
+    transition: 0.2s;
+  }
+  
+  circle:hover {
+    fill-opacity: 1;
+    cursor: pointer;
+  }
+  
+  #table {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    width: 200px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  #table td {
+    text-align: left;
+  }
+  
+  #table td:nth-child(2) {
+    font-style: italic;
+    color: #333;
+  }
+  
+  .brush .selection {
+    fill: #b3d9ff;
+    fill-opacity: 0.4;
+    stroke: #3399ff;
+  }
+  

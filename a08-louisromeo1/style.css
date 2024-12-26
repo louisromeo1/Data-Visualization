@@ -1,0 +1,37 @@
+/*
+Author: Louis Romeo
+CSC 444 Assignment 8
+Date: 11/18/2024
+a08.js
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
+}
