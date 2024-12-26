@@ -1,4 +1,4 @@
-# Data-Visualization
+# CSC-444
 Author: Louis Romeo
 - To Run: Download selected project and run in visual studio code with webpage viewer extension
 - Contains 10 HTML/Javascript Projects
